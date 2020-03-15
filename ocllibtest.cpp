@@ -6,7 +6,7 @@
 
 static void testbitlib(const char *aocx)
 {
-	clWrap  cw;
+	clwrap  cw;
 	int gsiz = 8;
 	cl_uchar *din  = new cl_uchar[gsiz];
 	cl_uchar *dout = new cl_uchar[gsiz];
